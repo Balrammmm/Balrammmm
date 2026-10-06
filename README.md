@@ -14,10 +14,10 @@ I’m **Balram Maurya**, an Electronics & Communication Engineering student at *
 ### `balram@github ~ $ whoami`
 
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/about-mobile-light.svg">
-  <source media="(max-width: 600px)" srcset="./assets/about-mobile.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/about-light.svg">
-  <img src="./assets/about.svg" width="900" alt="Animated ASCII portrait of Balram Maurya. ECE at Thapar, expected graduation 2027. Next.js, TypeScript, Python and ESP32. AI products, analytics and hardware. Patiala, India.">
+  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/about-mobile-light.svg?v=2">
+  <source media="(max-width: 600px)" srcset="./assets/about-mobile.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/about-light.svg?v=2">
+  <img src="./assets/about.svg?v=2" width="900" alt="Animated ASCII portrait of Balram Maurya. ECE at Thapar, expected graduation 2027. Next.js, TypeScript, Python and ESP32. AI products, analytics and hardware. Patiala, India.">
 </picture>
 
 ### `balram@github ~ $ ls ./selected-work`
