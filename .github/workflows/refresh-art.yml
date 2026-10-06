@@ -1,0 +1,35 @@
+name: Refresh profile artwork
+
+on:
+  schedule:
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-art
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - name: Fetch calendar and render artwork
+        run: node scripts/render-profile.mjs --refresh
+      - name: Commit updated activity artwork
+        run: |
+          git add data/contributions.json assets/contributions.svg assets/contributions-light.svg
+          if git diff --cached --quiet; then
+            echo 'Calendar is already current.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore: refresh profile activity artwork'
+          git push
