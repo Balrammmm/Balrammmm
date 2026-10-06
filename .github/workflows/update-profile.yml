@@ -1,35 +1,31 @@
-name: Refresh profile artwork
-
+name: Update profile activity
 on:
   schedule:
     - cron: '17 6 * * *'
   workflow_dispatch:
-
 permissions:
   contents: write
-
 concurrency:
   group: profile-art
   cancel-in-progress: false
-
 jobs:
-  refresh:
+  update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-node@v6
         with:
           node-version: '24'
-      - name: Fetch calendar and render artwork
-        run: node scripts/render-profile.mjs --refresh
-      - name: Commit updated activity artwork
+      - name: Read GitHub activity and render SVG
+        run: node scripts/generate-contributions.mjs
+      - name: Save a changed calendar
         run: |
-          git add data/contributions.json assets/contributions.svg assets/contributions-light.svg
+          git add data/contributions.json assets/contribution-graph.svg assets/contribution-graph-mobile.svg
           if git diff --cached --quiet; then
-            echo 'Calendar is already current.'
+            echo 'No activity artwork changes.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit -m 'chore: refresh profile activity artwork'
+          git commit -m 'chore: refresh GitHub activity artwork'
           git push

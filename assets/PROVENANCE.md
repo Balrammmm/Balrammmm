@@ -1,9 +1,6 @@
 # Asset provenance
 
-- `profile-avatar.png`: generated from Balram Maurya's supplied portfolio portrait with the built-in ImageGen tool. Identity reference: `hero-cutout-v2.png` in his portfolio repository. Prompt: Create one square professional GitHub profile portrait; preserve the exact recognizable face, facial proportions, hairstyle, skin tone, age, natural skin texture, expression, dark blazer and black turtleneck. Change only framing, backdrop and studio lighting. Chest-up, face near center, generous headroom, circular-avatar-safe margins, plain deep charcoal studio backdrop, neutral soft key light. Crop the hand out of framing. No beauty filter, altered face, added accessories, text, logo, border or UI.
-- `portrait*.svg`: deterministic character-art conversion of the supplied portfolio portrait, authored as SVG text. Glyph source is `data/portrait-grid.json`.
-- `header*.svg` and `identity*.svg`: hand-authored vector typography and layout; factual content comes from Balram's portfolio and his instructions.
-- `about*.svg`: the same authored ASCII portrait and identity content, assembled side by side for desktop and vertically for phones.
-- `contributions*.svg`: generated from GitHub's public contribution-calendar HTML. This is activity data, including any private counts the account chooses to display; it is not a project-performance claim.
-- `display.woff2`: Anton, copied with its supplied OFL license from Balram's portfolio.
-- `body.woff2`: Manrope, copied with its supplied OFL license from Balram's portfolio.
+- `avatar.jpg`: JPEG export of the pixel-art portrait supplied by Balram on October 7, 2026. Original dimensions and framing preserved. No regeneration.
+- `avatar.svg`: native vector pixel paths sampled from that supplied artwork at 112 × 112 cells with a 93-color palette. Preserves the full composition; no embedded raster or base64 payload.
+- `whoami.svg` and `whoami-mobile.svg`: the same vector portrait in original desktop and phone terminal compositions. Identity facts are supplied by Balram and his portfolio.
+- `contribution-graph.svg` and `contribution-graph-mobile.svg`: two responsive versions of one contribution visualization, generated from GitHub-reported calendar data. Includes anonymous private counts where enabled. The rendering script does not create activity, backdate commits, invent counts or derive promotional streak metrics.

@@ -2,6 +2,7 @@
   "username": "Balrammmm",
   "start": "2025-10-08",
   "end": "2026-10-07",
+  "total": 707,
   "days": [
     {
       "date": "2025-10-08",
@@ -1825,9 +1826,8 @@
     },
     {
       "date": "2026-10-07",
-      "count": 5,
-      "level": 3
+      "count": 8,
+      "level": 4
     }
-  ],
-  "total": 704
+  ]
 }
