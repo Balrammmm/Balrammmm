@@ -49,11 +49,11 @@ for(const [mode,t] of Object.entries(themes)) {
  await write(`identity${suffix}.svg`,svg(520,440,'Balram Maurya — identity and technical interests','Build: AI products, analytics and hardware. Study: ECE at Thapar, expected graduation 2027. Software: Next.js, TypeScript and Python. Hardware: ESP32, sensors, audio and motors. Based in Patiala, India.',identity,t));
  const printStyle='';
  const aboutDescription='Animated ASCII portrait of Balram Maurya beside his background: ECE at Thapar, class of 2027; AI products, analytics and hardware; Next.js, TypeScript, Python and ESP32; Patiala, India.';
- await write(`about${suffix}.svg`,svg(900,440,'Balram Maurya — portrait and background',aboutDescription,portraitInside+`<path d="M380 25V415" stroke="${t.line}"/><g transform="translate(380 0)">${identity}</g>`,t,printStyle));
+ await write(`about-desktop${suffix}.svg`,svg(900,440,'Balram Maurya — portrait and background',aboutDescription,portraitInside+`<path d="M380 25V415" stroke="${t.line}"/><g transform="translate(380 0)">${identity}</g>`,t,printStyle));
  const mobileFacts=[['BUILD','AI products, data & hardware'],['STUDY','ECE @ Thapar · Class of 2027'],['SOFTWARE','Next.js · TypeScript · Python'],['HARDWARE','ESP32 · sensors · audio · motors']];
  const mobileLines=mobileFacts.map(([label,value],i)=>`<text class="mono gold" x="29" y="${550+i*74}" font-size="15">${label}</text><text x="29" y="${581+i*74}" font-size="23">${escape(value)}</text>`).join('');
  const mobileAbout=`<g transform="translate(70 0)">${portraitInside}</g><path d="M28 459H492" stroke="${t.line}"/><text x="28" y="506" font-size="32" font-weight="650">Beyond one discipline.</text>${mobileLines}<text class="mono muted" x="29" y="866" font-size="18">Patiala, India.</text>`;
- await write(`about-mobile${suffix}.svg`,svg(520,900,'Balram Maurya — portrait and background',aboutDescription,mobileAbout,t,printStyle));
+ await write(`about-phone${suffix}.svg`,svg(520,900,'Balram Maurya — portrait and background',aboutDescription,mobileAbout,t,printStyle));
  const startDate=new Date(`${data.start}T00:00:00Z`);
  const gridStart=new Date(startDate);gridStart.setUTCDate(gridStart.getUTCDate()-gridStart.getUTCDay());
  let grid='';let previousMonth='';
