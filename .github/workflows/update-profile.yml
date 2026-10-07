@@ -22,7 +22,7 @@ jobs:
           node scripts/render-snapshot.mjs
       - name: Save a changed calendar
         run: |
-          git add data/contributions.json data/public-languages.json assets/contribution-graph.svg assets/contribution-graph-mobile.svg assets/snapshot.svg assets/snapshot-mobile.svg
+          git add data/contributions.json data/public-languages.json assets/contribution-graph.svg assets/contribution-graph-mobile.svg assets/snapshot.svg assets/snapshot-compact.svg
           if git diff --cached --quiet; then
             echo 'No activity artwork changes.'
             exit 0

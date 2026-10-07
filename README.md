@@ -17,7 +17,7 @@
 <br>
 
 <picture>
-  <source media="(max-width: 900px)" srcset="./assets/snapshot-mobile.svg?v=language-spacing-2">
+  <source media="(max-width: 900px)" srcset="./assets/snapshot-compact.svg">
   <img src="./assets/snapshot.svg" width="860" alt="GitHub-reported activity snapshot and public project language bytes. Code composition is not a measure of expertise.">
 </picture>
 
