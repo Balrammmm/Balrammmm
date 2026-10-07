@@ -27,7 +27,7 @@ const colors={TypeScript:'#3178c6',JavaScript:'#d9c45b',CSS:'#8870b8',HTML:'#df6
 const esc=value=>String(value).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;');
 const mix=entries.slice(0,4).map(([name,size])=>({name,size,pct:sum?size/sum*100:0,color:colors[name]||'#8b949e'}));
 for(const mobile of [false,true]){
- const width=mobile?480:860,height=mobile?370:214,languageX=mobile?28:505,languageY=mobile?215:51,barWidth=mobile?424:327;
+ const width=mobile?480:860,height=mobile?370+Math.max(0,mix.length-3)*23:214,languageX=mobile?28:505,languageY=mobile?215:51,barWidth=mobile?424:327;
  const radius=mobile?31:30,cx=mobile?240:230,cy=mobile?102:106,circ=2*Math.PI*radius,offset=longest?circ*(1-current/longest):circ;
  const statY=mobile?108:111;
  const left=mobile?81:89,right=mobile?399:379;
