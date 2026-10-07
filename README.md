@@ -30,11 +30,11 @@
 
 | Project | What it explores | Open |
 | :--- | :--- | :--- |
-| <img src="./assets/project-pulse.svg" width="22" height="22" alt=""> **ProductPulse** | Customer feedback → product decisions | [Demo](https://product-pulse-xi.vercel.app) · [Source](https://github.com/Balrammmm/product-pulse) |
-| <img src="./assets/project-venture.svg" width="22" height="22" alt=""> **Venture Autopsy** | Markets, assumptions and venture risk | [Demo](https://venture-autopsy-eight.vercel.app) |
-| <img src="./assets/project-retail.svg" width="22" height="22" alt=""> **RetailPulse** | Retail data, business KPIs and insight | [Details](https://balram-portfolio-two.vercel.app) |
-| <img src="./assets/project-neo.svg" width="22" height="22" alt=""> **NEO** | Audio, sensing and physical interaction | [Details](https://balram-portfolio-two.vercel.app) |
-| <img src="./assets/project-quad.svg" width="22" height="22" alt=""> **ESP32 Quadcopter** | Motion sensing and motor control | [Details](https://balram-portfolio-two.vercel.app) |
+| <a href="https://product-pulse-xi.vercel.app"><img src="./assets/project-pulse.svg" width="22" height="22" alt=""> <strong>ProductPulse</strong></a> | Customer feedback → product decisions | [Demo](https://product-pulse-xi.vercel.app) · [Source](https://github.com/Balrammmm/product-pulse) |
+| <a href="https://venture-autopsy-eight.vercel.app"><img src="./assets/project-venture.svg" width="22" height="22" alt=""> <strong>Venture Autopsy</strong></a> | Markets, assumptions and venture risk | [Demo](https://venture-autopsy-eight.vercel.app) |
+| <a href="https://balram-portfolio-two.vercel.app"><img src="./assets/project-retail.svg" width="22" height="22" alt=""> <strong>RetailPulse</strong></a> | Retail data, business KPIs and insight | [Details](https://balram-portfolio-two.vercel.app) |
+| <a href="https://balram-portfolio-two.vercel.app"><img src="./assets/project-neo.svg" width="22" height="22" alt=""> <strong>NEO</strong></a> | Audio, sensing and physical interaction | [Details](https://balram-portfolio-two.vercel.app) |
+| <a href="https://balram-portfolio-two.vercel.app"><img src="./assets/project-quad.svg" width="22" height="22" alt=""> <strong>ESP32 Quadcopter</strong></a> | Motion sensing and motor control | [Details](https://balram-portfolio-two.vercel.app) |
 
 <br>
 
