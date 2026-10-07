@@ -23,7 +23,10 @@
 
 <br>
 
-<img src="./assets/selected-work-heading.svg" width="860" alt="balram@github ~ $ ls ./selected-work">
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/selected-work-heading-mobile.svg">
+  <img src="./assets/selected-work-heading.svg" width="860" alt="balram@github ~ $ ls ./selected-work">
+</picture>
 
 | Project | What it explores | Open |
 | :--- | :--- | :--- |
