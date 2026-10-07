@@ -1,7 +1,7 @@
 <h3 align="center"><code>balram@github ~ $ ./contributions.sh</code></h3>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/contribution-graph-mobile.svg">
+  <source media="(max-width: 900px)" srcset="./assets/contribution-graph-mobile.svg">
   <img src="./assets/contribution-graph.svg" width="860" alt="GitHub-reported activity for Balrammmm, refreshed daily. Includes anonymous private contributions.">
 </picture>
 
@@ -10,21 +10,21 @@
 <h3 align="center"><code>balram@github ~ $ whoami</code></h3>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/identity-print-mobile.svg">
+  <source media="(max-width: 900px)" srcset="./assets/identity-print-mobile.svg">
   <img src="./assets/identity-print.svg" width="860" alt="Animated grey character portrait of Balram Maurya, printing from top to bottom. ECE at Thapar, 2027. AI-assisted products, data and hardware. India.">
 </picture>
 
 <br>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/snapshot-mobile.svg">
+  <source media="(max-width: 900px)" srcset="./assets/snapshot-mobile.svg">
   <img src="./assets/snapshot.svg" width="860" alt="GitHub-reported activity snapshot and public project language bytes. Code composition is not a measure of expertise.">
 </picture>
 
 <br>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/selected-work-heading-mobile.svg">
+  <source media="(max-width: 900px)" srcset="./assets/selected-work-heading-mobile.svg">
   <img src="./assets/selected-work-heading.svg" width="860" alt="balram@github ~ $ ls ./selected-work">
 </picture>
 
