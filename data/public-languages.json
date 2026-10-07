@@ -1,10 +1,11 @@
 {
   "source": "GitHub public project language bytes",
-  "projectCount": 1,
+  "projectCount": 4,
   "bytes": {
-    "TypeScript": 189954,
-    "CSS": 10339,
-    "JavaScript": 753
+    "TypeScript": 1015869,
+    "JavaScript": 15340,
+    "CSS": 23532,
+    "Python": 9634
   },
   "updated": "2026-10-07"
 }

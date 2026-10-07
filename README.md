@@ -28,18 +28,28 @@
   <img src="./assets/selected-work-heading.svg" width="860" alt="balram@github ~ $ ls ./selected-work">
 </picture>
 
-| Project | What it explores | Open |
-| :--- | :--- | :--- |
-| <a href="https://product-pulse-xi.vercel.app"><img src="./assets/project-pulse.svg" width="22" height="22" alt=""> <strong>ProductPulse</strong></a> | Customer feedback → product decisions | [Demo](https://product-pulse-xi.vercel.app) · [Source](https://github.com/Balrammmm/product-pulse) |
-| <a href="https://venture-autopsy-eight.vercel.app"><img src="./assets/project-venture.svg" width="22" height="22" alt=""> <strong>Venture Autopsy</strong></a> | Markets, assumptions and venture risk | [Demo](https://venture-autopsy-eight.vercel.app) |
-| <a href="https://balram-portfolio-two.vercel.app"><img src="./assets/project-retail.svg" width="22" height="22" alt=""> <strong>RetailPulse</strong></a> | Retail data, business KPIs and insight | [Details](https://balram-portfolio-two.vercel.app) |
-| <a href="https://balram-portfolio-two.vercel.app"><img src="./assets/project-neo.svg" width="22" height="22" alt=""> <strong>NEO</strong></a> | Audio, sensing and physical interaction | [Details](https://balram-portfolio-two.vercel.app) |
-| <a href="https://balram-portfolio-two.vercel.app"><img src="./assets/project-quad.svg" width="22" height="22" alt=""> <strong>ESP32 Quadcopter</strong></a> | Motion sensing and motor control | [Details](https://balram-portfolio-two.vercel.app) |
+<a href="https://product-pulse-xi.vercel.app">
+  <picture>
+    <source media="(max-width: 900px)" srcset="./assets/featured-product-pulse-mobile.svg">
+    <img src="./assets/featured-product-pulse.svg" width="860" alt="ProductPulse — Customer feedback → product decisions. Open demo.">
+  </picture>
+</a>
+
+<p align="right"><a href="https://product-pulse-xi.vercel.app">Live demo ↗</a> &nbsp; · &nbsp; <a href="https://github.com/Balrammmm/product-pulse">GitHub source ↗</a></p>
+
+<a href="https://venture-autopsy-eight.vercel.app">
+  <picture>
+    <source media="(max-width: 900px)" srcset="./assets/featured-venture-autopsy-mobile.svg">
+    <img src="./assets/featured-venture-autopsy.svg" width="860" alt="Venture Autopsy — Markets, assumptions and venture risk. Open demo.">
+  </picture>
+</a>
+
+<p align="right"><a href="https://venture-autopsy-eight.vercel.app">Live demo ↗</a> &nbsp; · &nbsp; <a href="https://github.com/Balrammmm/Venture-Autopsy">GitHub source ↗</a></p>
 
 <br>
 
 <p align="center">
-  <a href="https://balram-portfolio-two.vercel.app/resume/business.pdf"><img src="./assets/link-resume.svg" width="100" height="36" alt="My résumé"></a> &nbsp;
+  <a href="https://balram-portfolio-two.vercel.app"><img src="./assets/link-portfolio.svg" width="110" height="36" alt="Portfolio"></a> &nbsp;
   <a href="https://www.linkedin.com/in/balram-maurya-639026273"><img src="./assets/link-linkedin.svg" width="110" height="36" alt="LinkedIn"></a> &nbsp;
   <a href="https://www.instagram.com/b4lrxm/"><img src="./assets/link-instagram.svg" width="122" height="36" alt="Instagram"></a>
 </p>
