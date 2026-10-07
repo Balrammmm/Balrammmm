@@ -1,14 +1,4 @@
-<p align="center"><code>balram@github ~ $ ./build --across-disciplines</code></p>
-
-<h3 align="center">BALRAM MAURYA</h3>
-
-<p align="center"><strong>AI · DATA · HARDWARE</strong><br><sub>ECE @ Thapar · 2027</sub></p>
-
-<p align="center">Learning by building across disciplines.</p>
-
-<br>
-
-### `balram@github ~ $ ./activity --last-year`
+<h3 align="center"><code>balram@github ~ $ ./contributions.sh</code></h3>
 
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/contribution-graph-mobile.svg">
@@ -17,45 +7,36 @@
 
 <br>
 
-### `balram@github ~ $ whoami`
+<h3 align="center"><code>balram@github ~ $ whoami</code></h3>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/whoami-mobile.svg">
-  <img src="./assets/whoami.svg" width="860" alt="Balram Maurya's supplied pixel portrait. AI products, analytics and hardware experiments. Electronics & Communication at Thapar, class of 2027. Learning, building, experimenting. India.">
+  <source media="(max-width: 600px)" srcset="./assets/identity-print-mobile.svg">
+  <img src="./assets/identity-print.svg" width="860" alt="Animated grey character portrait of Balram Maurya, printing from top to bottom. ECE at Thapar, 2027. AI-assisted products, data and hardware. India.">
 </picture>
 
 <br>
 
-### `balram@github ~ $ ls ./selected-work`
-
-**ProductPulse** — Customer-review intelligence that turns raw feedback into product decisions.  
-<sub>[Demo](https://product-pulse-xi.vercel.app) · [Source](https://github.com/Balrammmm/product-pulse)</sub>
-
-**Venture Autopsy** — AI-assisted venture validation for markets, assumptions, business models and risk.  
-<sub>[Demo](https://venture-autopsy-eight.vercel.app)</sub>
-
-**RetailPulse** — Retail analytics built around business KPIs and structured data.  
-<sub>[Portfolio](https://balram-portfolio-two.vercel.app)</sub>
-
-**NEO** — An ESP32 hardware prototype exploring display, audio, input and physical interaction.  
-<sub>[Portfolio](https://balram-portfolio-two.vercel.app)</sub>
-
-**ESP32 Quadcopter** — A control experiment connecting motion sensing, motor response and electronics.  
-<sub>[Portfolio](https://balram-portfolio-two.vercel.app)</sub>
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/snapshot-mobile.svg">
+  <img src="./assets/snapshot.svg" width="860" alt="GitHub-reported activity snapshot and public project language bytes. Code composition is not a measure of expertise.">
+</picture>
 
 <br>
 
-### `balram@github ~ $ cat ./interests`
+<img src="./assets/selected-work-heading.svg" width="860" alt="balram@github ~ $ ls ./selected-work">
 
-**AI** → useful intelligence, automation, products  
-**Data** → decisions inside messy information  
-**Hardware** → sensors, machines, physical experiments  
-**Markets** → finance, behavior, business systems
+| Project | What it explores | Open |
+| :--- | :--- | :--- |
+| <img src="./assets/project-pulse.svg" width="22" height="22" alt=""> **ProductPulse** | Customer feedback → product decisions | [Demo](https://product-pulse-xi.vercel.app) · [Source](https://github.com/Balrammmm/product-pulse) |
+| <img src="./assets/project-venture.svg" width="22" height="22" alt=""> **Venture Autopsy** | Markets, assumptions and venture risk | [Demo](https://venture-autopsy-eight.vercel.app) |
+| <img src="./assets/project-retail.svg" width="22" height="22" alt=""> **RetailPulse** | Retail data, business KPIs and insight | [Details](https://balram-portfolio-two.vercel.app) |
+| <img src="./assets/project-neo.svg" width="22" height="22" alt=""> **NEO** | Audio, sensing and physical interaction | [Details](https://balram-portfolio-two.vercel.app) |
+| <img src="./assets/project-quad.svg" width="22" height="22" alt=""> **ESP32 Quadcopter** | Motion sensing and motor control | [Details](https://balram-portfolio-two.vercel.app) |
 
 <br>
 
 <p align="center">
-  <a href="https://balram-portfolio-two.vercel.app">Portfolio</a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/balram-maurya-639026273">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="https://balram-portfolio-two.vercel.app/resume/business.pdf">Résumé</a>
+  <a href="https://balram-portfolio-two.vercel.app/resume/business.pdf"><img src="./assets/link-resume.svg" width="100" height="36" alt="My résumé"></a> &nbsp;
+  <a href="https://www.linkedin.com/in/balram-maurya-639026273"><img src="./assets/link-linkedin.svg" width="110" height="36" alt="LinkedIn"></a> &nbsp;
+  <a href="https://www.instagram.com/b4lrxm/"><img src="./assets/link-instagram.svg" width="122" height="36" alt="Instagram"></a>
 </p>
